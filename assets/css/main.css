@@ -825,14 +825,14 @@
  }
  
  .sponsors .sponsors-box:hover {
-   cursor: pointer;
-   -webkit-transform: scale(1.2);
-       -ms-transform: scale(1.2);
-           transform: scale(1.2);
-   -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+   #cursor: pointer;
+   #-webkit-transform: scale(1.2);
+   #    -ms-transform: scale(1.2);
+   #        transform: scale(1.2);
+   #-webkit-transition: all 0.3s;
+   # -moz-transition: all 0.3s;
+   # -o-transition: all 0.3s;
+   # transition: all 0.3s;
  }
  .sponsors .register-button {
    text-align: center;
