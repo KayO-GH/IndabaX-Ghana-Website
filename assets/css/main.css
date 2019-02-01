@@ -8,6 +8,7 @@
  html {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
+   overflow-x: hidden;
  }
  
  body {
@@ -18,6 +19,7 @@
    line-height: 1.6;
    position: relative;
    -webkit-font-smoothing: antialiased;
+   overflow-x: hidden;
  }
  
  a {
@@ -390,7 +392,7 @@
    min-height: 70vh; /* changed in attempt to fix mobile look */
    position: relative;
    text-align: center;
-   background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+   background: url(../images/backgrounds/bg-2.jpg) no-repeat center center/cover;
    display: table;
  }
  .site-header::before {
@@ -962,3 +964,9 @@
  .tooltip {
    font-size: 1.25em;
  }
+
+ .social {
+  width: 60px;
+  height: 50px;
+  padding-right: 10px;
+}

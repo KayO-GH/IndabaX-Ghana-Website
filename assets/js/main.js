@@ -36,7 +36,11 @@ INFO = {
      affiliation: 'Director of Data Science & Analytics, EXPRESS',
      linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
     },
-  
+    'Danielle Belgrave':
+    { imagePath: './assets/images/speakers/danielle.jpeg',
+     affiliation: 'Researcher, Microsoft',
+     linkedinProfile: 'https://www.linkedin.com/in/danielle-belgrave-704157107/',
+    },
 };
 
 PANEL = [
