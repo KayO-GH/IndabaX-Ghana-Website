@@ -19,27 +19,32 @@ INFO = {
       // affiliationInfoPath: './assets/speaker_data/ntombikayise_banda/affiliation.txt',
       affiliation: 'Head of Google AI Center, Accra. Founder and Director of AMMI at AIMS',
       linkedinProfile: 'https://www.linkedin.com/in/moustapha-cisse/', 
-      // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY' 
+      // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
+      description: ' '
      },
     'Darlington Akogo':
     { imagePath: './assets/images/speakers/darlington.jpg',
      affiliation: 'Founder, MinoHealth AI Labs',
-     linkedinProfile: 'https://www.linkedin.com/in/darlington-a-akogo-8628b78b/', 
+     linkedinProfile: 'https://www.linkedin.com/in/darlington-a-akogo-8628b78b/',
+     description: ' ' 
     },
     'Stephen Opoku-Anokye, PhD':
     { imagePath: './assets/images/speakers/stephen.jpeg',
      affiliation: 'Business Analytics Consultant, Barrachd',
      linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/s',
+     description: ' '
     },
     'Delali Agbenyegah':
     { imagePath: './assets/images/organisers/delali.jpeg',
      affiliation: 'Director of Data Science & Analytics, EXPRESS',
      linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
+     description: ' '
     },
     'Danielle Belgrave':
     { imagePath: './assets/images/speakers/danielle.jpeg',
      affiliation: 'Researcher, Microsoft',
      linkedinProfile: 'https://www.linkedin.com/in/danielle-belgrave-704157107/',
+     description: ' '
     },
 };
 
@@ -52,7 +57,7 @@ PANEL = [
   "Prof. Sugnet Lubbe"
 ];
 
-KEYNOTE = "Dr. Jacques Ludik";
+KEYNOTE = "Moustapha Cisse";
 
 ORGANIZERS = {
   'Richard Ackon':
@@ -129,6 +134,7 @@ smoothScroll.init();
  * Add Speakers to html
  */
 
+
 function populateSpeakerInfo(info) {
     var count = 0;
     var $row_div;
@@ -155,15 +161,13 @@ function populateSpeakerInfo(info) {
                     .append(
                         $("<a />").attr({
                             "data-target": ("#myModal" + id),
-                            "data-toggle": "modl",
-                            "href": info[speaker].linkedinProfile,
-                            "target": "_blank"
+                            "data-toggle": "modal"
                         })
                         .append(
                             $("<img />").attr({
                                 "src": info[speaker].imagePath,
                                 "data-toggle": "tooltip",
-                                "title": ""
+                                "title": "Click for more info"
                             })
                         ) // append to a
                     ) // append to figure
@@ -233,21 +237,12 @@ function populateSpeakerInfo(info) {
                                     ) // append to modal body
                                     .append(
                                       (
-                                        info[speaker].vidLink?
-                                        $("<iframe />").attr({
-                                            "src": info[speaker].vidLink,
-                                            "frameborder": "0",
-                                            "allow": "autoplay;encrypted-media",
-                                            "allowfullscreen": true
-                                        }).css({
-                                            "width": "100%",
-                                            "height": "300"
-                                        })
-                                        :""
+                                        $("<p />").attr({
+                                            "style": "text-transform: none;",
+                                        }).text(
+                                            info[speaker].description || ""
+                                        )
                                       )
-                                    )
-                                    .append(
-                                        ((info[speaker].lectureAbstract || []).join("<br><br>") || "Self-explanatory :)")
                                     )
                                 ) // append to modal content
                                 .append(
@@ -255,7 +250,8 @@ function populateSpeakerInfo(info) {
                                     .append(
                                         $("<button />").addClass("btn btn-primary").attr({
                                             "type": "button",
-                                            "data-dismiss": "modal"
+                                            "data-dismiss": "modal",
+                                            "style": "background: #d89324"
                                         })
                                         .text("Close")
                                     ) // append to modal footer
@@ -609,3 +605,12 @@ populateSpeakerInfo(INFO);
 // populatePanelSpeakers(PANEL, INFO);
 // populateKeyNote(KEYNOTE, INFO);
 // populateOrganizers(ORGANIZERS);
+
+const items = document.querySelectorAll(".accordion a");
+
+function toggleAccordion(){
+  this.classList.toggle('active');
+  this.nextElementSibling.classList.toggle('active');
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));

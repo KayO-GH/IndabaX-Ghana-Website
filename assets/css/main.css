@@ -88,9 +88,9 @@
  }
  
  .speaker a i:hover {
-   color: #4c90ff;
+   color: #d89324;
  }
- 
+
  .btn.active.focus,
  .btn.active:focus,
  .btn.focus,
@@ -240,13 +240,13 @@
  #apply {
    font-weight: bold;
    font-size: 2.5em;
-   background-color: #e2d300;
+   background-color: #d89324;
    margin-top: 0.5em;
  }
  #sponsor {
    font-weight: bold;
    font-size: 1.5em;
-   background-color: #e2d300;
+   background-color: #d89324;
  }
  #poster {
    font-weight: bold;
@@ -580,7 +580,7 @@
    box-shadow: 0.25em 0.25em 0.25em grey
  }
  .speaker img:hover {
-   border: 0.5em solid #62d65e;
+   border: 0.5em solid #d89324;
    cursor: pointer;
    -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -769,7 +769,7 @@
  }
  
  .schedule-slot-info:hover .schedule-slot-speakers{
-      border: 2px solid #56c452;
+      border: 2px solid #d89324;
  }
  
  .schedule-slot-info:hover .lightning-speakers .schedule-slot-speakers{
@@ -777,7 +777,7 @@
  }
  
  .schedule-slot-info div.lightning-speakers .schedule-slot-speakers:hover {
-    border: 2px solid #56c452;
+    border: 2px solid #d89324;
  }
  
  .schedule-slot-info div.lightning-speakers {
@@ -969,4 +969,110 @@
   width: 60px;
   height: 50px;
   padding-right: 10px;
+}
+
+ /* FAQS */
+
+ @font-face {
+  font-family: "Ionicons";
+  src:url("../fonts/ionicons.eot?v=1.4.0");
+  src:url("../fonts/ionicons.eot?v=1.4.0#iefix") format("embedded-opentype"),
+   url("../fonts/ionicons.ttf?v=1.4.0") format("truetype"),
+   url("../fonts/ionicons.woff?v=1.4.0") format("woff"),
+   url("../fonts/ionicons.svg?v=1.4.0#Ionicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+ }
+
+
+#faq-h3 {
+  font-size: 1.75rem;
+  color: #373d51;
+  padding: 1.3rem;
+  margin: 0;
+}
+
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion a:hover::after {
+  border: 1px solid #03b5d2;
+}
+
+.accordion a.active {
+  color: #03b5d2;
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
 }
