@@ -31,7 +31,7 @@ INFO = {
     'Stephen Opoku-Anokye, PhD':
     { imagePath: './assets/images/speakers/stephen.jpeg',
      affiliation: 'Business Analytics Consultant, Barrachd',
-     linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/s',
+     linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/',
      description: ' '
     },
     'Delali Agbenyegah':
