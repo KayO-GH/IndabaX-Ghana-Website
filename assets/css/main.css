@@ -88,7 +88,7 @@
  }
  
  .speaker a i:hover {
-   color: #d89324;
+   color: #ff8400;
  }
 
  .btn.active.focus,
@@ -240,13 +240,14 @@
  #apply {
    font-weight: bold;
    font-size: 2.5em;
-   background-color: #d89324;
+   background-color: #ff8400;
    margin-top: 0.5em;
+   margin-bottom: 0.5em;
  }
  #sponsor {
    font-weight: bold;
    font-size: 1.5em;
-   background-color: #d89324;
+   background-color: #ff8400;
  }
  #poster {
    font-weight: bold;
@@ -411,7 +412,7 @@
    text-transform: uppercase;
    width: 100%;
    z-index: 1;
-   padding: 5em 15px 1em 15px;
+   padding: 1em 15px 1em 15px;
    display: table-cell;
    vertical-align: middle;
    height: 100vh;
@@ -441,7 +442,7 @@
    font-weight: 300;
  }
  .site-header .intro img {
-   width: 30%;
+   width: 35%;
  }
  
  .site-header .intro ul.social-block {
@@ -580,7 +581,7 @@
    box-shadow: 0.25em 0.25em 0.25em grey
  }
  .speaker img:hover {
-   border: 0.5em solid #d89324;
+   border: 0.5em solid #ff8400;
    cursor: pointer;
    -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -769,7 +770,7 @@
  }
  
  .schedule-slot-info:hover .schedule-slot-speakers{
-      border: 2px solid #d89324;
+      border: 2px solid #ff8400;
  }
  
  .schedule-slot-info:hover .lightning-speakers .schedule-slot-speakers{
@@ -777,7 +778,7 @@
  }
  
  .schedule-slot-info div.lightning-speakers .schedule-slot-speakers:hover {
-    border: 2px solid #d89324;
+    border: 2px solid #ff8400;
  }
  
  .schedule-slot-info div.lightning-speakers {

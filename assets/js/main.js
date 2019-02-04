@@ -8,6 +8,24 @@ CATEGORY_TO_ICON = {
 };
 
 INFO = {
+    'Danielle Belgrave':
+    { imagePath: './assets/images/speakers/danielle.jpeg',
+     affiliation: 'Researcher, Microsoft',
+     linkedinProfile: 'https://www.linkedin.com/in/danielle-belgrave-704157107/',
+     description: ' '
+    },
+    'Darlington Akogo':
+    { imagePath: './assets/images/speakers/darlington.jpg',
+     affiliation: 'Founder, MinoHealth AI Labs',
+     linkedinProfile: 'https://www.linkedin.com/in/darlington-a-akogo-8628b78b/',
+     description: ' ' 
+    },
+    'Delali Agbenyegah':
+    { imagePath: './assets/images/organisers/delali.jpeg',
+     affiliation: 'Director of Data Science & Analytics, EXPRESS',
+     linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
+     description: ' '
+    },
     'Moustapha Cisse':
     { imagePath: './assets/images/speakers/moustapha.jpeg',
       // lectureInfoPath: './assets/speaker_data/ntombikayise_banda/lecture_info.txt',
@@ -22,28 +40,10 @@ INFO = {
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
       description: ' '
      },
-    'Darlington Akogo':
-    { imagePath: './assets/images/speakers/darlington.jpg',
-     affiliation: 'Founder, MinoHealth AI Labs',
-     linkedinProfile: 'https://www.linkedin.com/in/darlington-a-akogo-8628b78b/',
-     description: ' ' 
-    },
-    'Stephen Opoku-Anokye, PhD':
+     'Stephen Opoku-Anokye, PhD':
     { imagePath: './assets/images/speakers/stephen.jpeg',
      affiliation: 'Business Analytics Consultant, Barrachd',
      linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/',
-     description: ' '
-    },
-    'Delali Agbenyegah':
-    { imagePath: './assets/images/organisers/delali.jpeg',
-     affiliation: 'Director of Data Science & Analytics, EXPRESS',
-     linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
-     description: ' '
-    },
-    'Danielle Belgrave':
-    { imagePath: './assets/images/speakers/danielle.jpeg',
-     affiliation: 'Researcher, Microsoft',
-     linkedinProfile: 'https://www.linkedin.com/in/danielle-belgrave-704157107/',
      description: ' '
     },
 };
