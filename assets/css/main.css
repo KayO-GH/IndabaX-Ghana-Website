@@ -1069,6 +1069,23 @@
   font-weight: 300;
 }
 
+.accordion .content p a {
+  font-size: 1rem;
+  font-weight: 300;
+  display: inline;
+  border-bottom: none;
+  color: #0000FF;
+}
+
+.accordion .content p a::after{
+  content: none;
+
+}
+
+.accordion .content p a.active::after{
+  content: none;
+}
+
 .accordion .content.active {
   opacity: 1;
   padding: 1rem;
