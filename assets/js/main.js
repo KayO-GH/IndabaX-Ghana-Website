@@ -18,13 +18,13 @@ INFO = {
     { imagePath: './assets/images/speakers/darlington.jpg',
      affiliation: 'Founder, MinoHealth AI Labs',
      linkedinProfile: 'https://www.linkedin.com/in/darlington-a-akogo-8628b78b/',
-     description: ' ' 
+     description: "Darlington Ahiale Akogo is the Founder, C.E.O and Director of Artificial Intelligence at minoHealth. He's also a Board Advisor and Ambassador at AI Expo Africa, the largest business focused AI community in Africa (http://aiexpoafrica.com/). Darlington Ahiale Akogo also heads minoHealth AI Labs where they research and apply Artificial Intelligence to fields like Biotechnology, Neuroscience, Optometry, Epidemiology, Dietetics/Nutrition and Agriculture. And with Gudra AI Studio, they explore Artificial Intelligence applied to general domains like Energy, Art, Education and Linguistics. Darlington Ahiale Akogo is also an Artificial Intelligence advocate, communicator and mentor. He believes Artificial Intelligence can solve a lot of problems plaguing Africa and being proactive is necessary in the Age of Artificial Intelligence and the 4th Industrial Revolution. So Darlington advocates, teaches and communicates Artificial Intelligence through seminars, lectures, interviews, writings and mentorships. He was a research presenter at NeurIPS 2018, the largest Conference on Artificial Intelligence in the World. And he was one of the speakers at the AI Expo Africa 2018 in Cape Town, South Africa and Next Einstein Forum’s Africa Science Week. He was also a participant in Massachusett Institute of Technology(MIT)'s Global Community BioSummit 2018. His research paper ‘ScaffoldNet: Detecting and Classifying Biomedical Polymer-Based Scaffolds via a Convolutional Neural Network’ has been accepted by the Future of Information and Communications Conference, which is sponsored by IEEE. Alongside great minds including Yoshua Bengio, who's celebrated as one of the Fathers of Deep Learning, Darlington is featured in and wrote for the book, 'Artificial Intelligence Simplified: 99 Use Cases And Expert Thoughts For Starters' which was put together by Data Science Nigeria. He also wrote reports and essays for Synapse Magazine ‘The Voice of African Artificial Intelligence & Data Science’ by AI Media."
     },
     'Delali Agbenyegah':
     { imagePath: './assets/images/organisers/delali.jpeg',
      affiliation: 'Director of Data Science & Analytics, EXPRESS',
      linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
-     description: ' '
+     description: "Delali Agbenyegah is the head of Data Science and Analytics team at Express, a large US based Fashion Retailer where he leads a team of Data Scientists In developing and deploying machine learning and optimization models for Express. Prior to joining Express In 2018, Delali was a Predictive Analytics Manager at a large Credit Card and Loyalty Solutions company based in Columbus, Ohio in the USA where he leads a team of Data Scientists in developing and deploying Predictive Analytics Solutions for several Fortune 500 companies. He has over eight years of experience in Data Science, Statistical Consulting and Business Analytics, with strong focus in predictive modelling, data mining, machine learning, conjoint design and analysis, marketing campaign optimization and marketing mix modelling. Delali has worked with several retailors and banks to develop and Implement analytical solutions that has generated great customer acquisitions and Improved retention, leading to significance revenue growth for the brands."
     },
     'Moustapha Cisse':
     { imagePath: './assets/images/speakers/moustapha.jpeg',
@@ -38,14 +38,17 @@ INFO = {
       affiliation: 'Head of Google AI Center, Accra. Founder and Director of AMMI at AIMS',
       linkedinProfile: 'https://www.linkedin.com/in/moustapha-cisse/', 
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
-      description: ' '
+      description: " "
      },
      'Stephen Opoku-Anokye, PhD':
     { imagePath: './assets/images/speakers/stephen.jpeg',
      affiliation: 'Business Analytics Consultant, Barrachd',
      linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/',
-     description: ' '
+     description: "Dr. Stephen Opoku-Anokye is a consultant, lecturer and researcher, who focuses on business intelligence, information systems design and enterprise architecture. His expertise in business intelligence includes data management, database design and business analytics. He is currently a Senior Business Analytics Consultant with a UK-based consultancy that specializes in Business Intelligence, Analytics and Information Management. Also, he is a Sessional Lecturer for Business Intelligence and Data Mining at the Henley Business School, University of Reading, UK. He visits University of Ghana Business School once a year to deliver a module on Business Intelligence and Data Mining as part of a collaboration between Henley Business School and the University of Ghana Business School."
     },
+    ' ':{
+
+    }
 };
 
 PANEL = [
@@ -238,7 +241,7 @@ function populateSpeakerInfo(info) {
                                     .append(
                                       (
                                         $("<p />").attr({
-                                            "style": "text-transform: none;",
+                                            "style": "text-transform: none; font-style: normal;",
                                         }).text(
                                             info[speaker].description || ""
                                         )
@@ -248,6 +251,13 @@ function populateSpeakerInfo(info) {
                                 .append(
                                     $("<div />").addClass("modal-footer")
                                     .append(
+                                        $("<a />").addClass("btn btn-primary linkedin").attr({
+                                            "type": "button",
+                                            "href": info[speaker].linkedinProfile,
+                                            "target": "_blank",
+                                        })
+                                        .text("LinkedIn Profile"),
+
                                         $("<button />").addClass("btn btn-primary").attr({
                                             "type": "button",
                                             "data-dismiss": "modal",

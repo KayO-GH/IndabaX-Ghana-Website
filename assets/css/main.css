@@ -596,6 +596,14 @@
  .speaker a i {
    color: #888888;
  }
+
+ .linkedin {
+  background: #1e6eaf;
+ }
+
+ .linkedin:hover {
+   cursor: pointer;
+ }
  
  /*
   * 6.4 Section: Registration & Pricing
