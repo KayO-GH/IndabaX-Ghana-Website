@@ -40,15 +40,12 @@ INFO = {
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
       description: " "
      },
-     'Stephen Opoku-Anokye, PhD':
-    { imagePath: './assets/images/speakers/stephen.jpeg',
-     affiliation: 'Business Analytics Consultant, Barrachd',
-     linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/',
-     description: "Dr. Stephen Opoku-Anokye is a consultant, lecturer and researcher, who focuses on business intelligence, information systems design and enterprise architecture. His expertise in business intelligence includes data management, database design and business analytics. He is currently a Senior Business Analytics Consultant with a UK-based consultancy that specializes in Business Intelligence, Analytics and Information Management. Also, he is a Sessional Lecturer for Business Intelligence and Data Mining at the Henley Business School, University of Reading, UK. He visits University of Ghana Business School once a year to deliver a module on Business Intelligence and Data Mining as part of a collaboration between Henley Business School and the University of Ghana Business School."
-    },
-    ' ':{
-
-    }
+    // 'Stephen Opoku-Anokye, PhD':
+    //{ imagePath: './assets/images/speakers/stephen.jpeg',
+    // affiliation: 'Business Analytics Consultant, Barrachd',
+    // linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/',
+    // description: "Dr. Stephen Opoku-Anokye is a consultant, lecturer and researcher, who focuses on business intelligence, information systems design and enterprise architecture. His expertise in business intelligence includes data management, database design and business analytics. He is currently a Senior Business Analytics Consultant with a UK-based consultancy that specializes in Business Intelligence, Analytics and Information Management. Also, he is a Sessional Lecturer for Business Intelligence and Data Mining at the Henley Business School, University of Reading, UK. He visits University of Ghana Business School once a year to deliver a module on Business Intelligence and Data Mining as part of a collaboration between Henley Business School and the University of Ghana Business School."
+    //},
 };
 
 PANEL = [
