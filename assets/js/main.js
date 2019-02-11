@@ -12,7 +12,7 @@ INFO = {
     { imagePath: './assets/images/speakers/danielle.jpeg',
      affiliation: 'Researcher, Microsoft',
      linkedinProfile: 'https://www.linkedin.com/in/danielle-belgrave-704157107/',
-     description: '.'
+     description: " "
     },
     'Darlington Akogo':
     { imagePath: './assets/images/speakers/darlington.jpg',
@@ -49,59 +49,8 @@ INFO = {
      },
 };
 
-PANEL = [
-  "Dr. Alta De Waal",
-  "Ismail Akhalwaya",
-  "Dr. Jacques Ludik",
-  "Dr. Herman Kamper",
-  "Prof. Amit Mishra",
-  "Prof. Sugnet Lubbe"
-];
-
 KEYNOTE = "Moustapha Cisse";
 
-ORGANIZERS = {
-  'Richard Ackon':
-   { imagePath: './assets/images/organisers/richard.jpg',
-   link: 'https://elanvb.github.io/CV/'},
-  'Hannah Lormenyo':
-   { imagePath: './assets/organisers/image.jpg',
-     link: 'https://elanvb.github.io/CV/'},
-  'Wayne Gakuo':
-   { imagePath: './assets/organiser_data/arnu_pretorius/image.jpg',
-   link: 'https://elanvb.github.io/CV/'},
-};
-
-// SPONSORS = [ [ './assets/images/sponsors/deeplearningindaba_com.PNG',
-//     'http://www.deeplearningindaba.com' ],
-//   [ './assets/images/sponsors/stonethree_com.png',
-//     'http://www.stonethree.com' ],
-//   [ './assets/images/sponsors/stonethreemining_com.jpg',
-//     'http://www.stonethreemining.com' ],
-//   [ './assets/images/sponsors/principa_co_za.png',
-//     'http://www.principa.co.za' ],
-//   [ './assets/images/sponsors/rezco_co_za.png',
-//     'http://www.rezco.co.za' ],
-//   [ './assets/images/sponsors/aerobotics_co.png',
-//     'http://www.aerobotics.co' ],
-//   [ './assets/images/sponsors/cortexlogic_com.png',
-//     'http://www.cortexlogic.com' ],
-//   [ './assets/images/sponsors/launchlab_co_za.png',
-//     'http://www.launchlab.co.za' ],
-//   [ './assets/images/sponsors/machineintelligenceafrica_org.png',
-//     'http://www.machineintelligenceafrica.org' ],
-//   [ './assets/images/sponsors/numberboost_com.png',
-//     'http://www.numberboost.com' ],
-//   [ './assets/images/sponsors/stochastic-consulting_com.png',
-//     'http://www.stochastic-consulting.com' ],
-//   [ './assets/images/sponsors/omnisient_com.png',
-//   'http://www.omnisient.com' ],
-//   [ './assets/images/sponsors/ambrite_ch.png',
-//     'http://www.ambrite.ch' ] ]
-// ;
-/*
- * Change Navbar color while scrolling
- */
 
 $(window).scroll(function(){
     handleTopNavAnimation();
@@ -146,7 +95,7 @@ function populateSpeakerInfo(info) {
           continue;
         }
 
-        var id = "-" + speaker.toLowerCase().replace(".", "").split(" ").join("-");
+        var id = "-" + speaker.toLowerCase().replace(".", "").replace(",", "").split(" ").join("-");
 
         if(count % 3 == 0) {
             $row_div = $("<div />").addClass("row");
@@ -179,27 +128,10 @@ function populateSpeakerInfo(info) {
                         ) // heading div
                     ) // append to figure
                     .append(
-                        $("<div />").addClass("col-xs-1")
-                        .append(
-                            $("<a />")
-                            .append(
-                                $("<i />").addClass(
-                                    CATEGORY_TO_ICON[info[speaker].category]
-                                ).attr({
-                                    "data-toggle": "tooltip",
-                                    "title": info[speaker].category
-                                })
-                            ) // append to a
-                        ) // append to list
-                    ) // append to figure
-                    .append(
                         $("<div />").addClass("col-xs-12")
                         .append(
                             $("<h5 />").text(info[speaker].affiliation)
-                        ) // paragraph div
-                        .append(
-                            $("<p />").text(info[speaker].lectureHeading)
-                        ) // paragraph div
+                        ) // paragraph div   
                     ) // append to figure
                     .append(
                         $("<div />").addClass("modal fade").attr({
@@ -274,103 +206,6 @@ function populateSpeakerInfo(info) {
         if(count % 3 == 2) {
             $("#speakers div.container").append($row_div);
         }
-
-        if(speaker == KEYNOTE) {
-          continue;
-        }
-
-        // add info to schedule
-        $scheduleSection = $(".schedule .tab-content");
-        // find title of this speaker and insert information (if not in tab zero)
-        $scheduleSlot = $scheduleSection.find("h3.schedule-slot-title:containsi('" + info[speaker].lectureHeading + "')").closest(".schedule-slot-info");
-
-        if($scheduleSlot.length > 0) {
-            $slotInfo = $scheduleSlot.find("div.schedule-slot-info-content");
-
-            $slotInfo.wrap($("<div />").addClass("col-xs-8"))
-            // $scheduleSlot = $scheduleSlot.filter(function(index, $element) {
-            //     return ($element.closest("#tab_zero") == null);
-            // });
-
-            $scheduleSlot.prepend(
-                $("<div />").addClass("col-xs-4")
-                .append(
-                    $("<a />")
-                    .append(
-                        $("<img />").addClass("schedule-slot-speakers").attr({
-                            "src": info[speaker].imagePath
-                        })
-                    )
-                )
-            );
-
-            $slotInfo.append(
-                $("<h4 />").addClass("schedule-slot-speaker-name").text(speaker)
-            );
-        } else if(info[speaker].category && info[speaker].category.toLowerCase() == "lightning talk") {
-            $scheduleSlot = $scheduleSection.find("div.row.lightning-speakers");
-            $slot = $("<div />").addClass("col-xs-3").css({
-                  "height": "7.5em"
-                })
-                .append(
-                    $("<div />").addClass("text-center")
-                    .append(
-                        $("<img />").addClass("schedule-slot-speakers").attr({
-                            "src": info[speaker].imagePath
-                        }).css({
-                            "position": "absolute",
-                            "right": "50%",
-                            "transform": "translateX(+50%)"
-                        })
-                    )
-                )
-                .append(
-                    $("<div />").addClass("text-center")
-                    .append(
-                        $("<h4 />").addClass("schedule-slot-speaker-name").text(speaker).css({
-                            "position": "absolute",
-                            "top": "70%",
-                            "transform": "translateY(-100%)",
-                            "right": "50%",
-                            "transform": "translateX(+50%)",
-                            "width": "100%"
-                        })
-                        // $("<h3 />").text(info[speaker].lectureHeading)
-                    )
-                );
-            $scheduleSlot.append($slot);
-            $scheduleSlot = $slot;
-        }
-
-        // console.log($scheduleSlot);
-        $scheduleSlot.attr({
-            "data-target": ("#myModal" + id),
-            "data-toggle": "modal"
-        });
-
-        $scheduleSlot.mouseenter(function() {
-            $(this).css({
-                "cursor": "pointer",
-                "-webkit-transform": "scale(1.2)",
-                    "-ms-transform": "scale(1.2)",
-                        "transform": "scale(1.2)",
-                "-webkit-transition": "all 0.3s",
-                "-moz-transition": "all 0.3s",
-                "-o-transition": "all 0.3s",
-                "transition": "all 0.3s"
-            })
-        }).mouseleave(function() {
-            $(this).css({
-                "cursor": "default",
-                "-webkit-transform": "scale(1)",
-                    "-ms-transform": "scale(1)",
-                        "transform": "scale(1)",
-                "-webkit-transition": "all 0.3s",
-                "-moz-transition": "all 0.3s",
-                "-o-transition": "all 0.3s",
-                "transition": "all 0.3s"
-            })
-        });
     }
 
     $("#speakers div.container").append($row_div);
