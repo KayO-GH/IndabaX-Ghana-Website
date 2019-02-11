@@ -1101,3 +1101,15 @@
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
 }
+
+
+/* Custom Schedule */
+.schedule-row{
+  border-bottom: 1px solid lightgrey;
+  padding: 4px 2px;
+}
+
+.schedule-time-slot{
+  border-right: 1px solid lightgrey;
+}
+

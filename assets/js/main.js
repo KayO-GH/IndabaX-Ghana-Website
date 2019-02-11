@@ -12,7 +12,7 @@ INFO = {
     { imagePath: './assets/images/speakers/danielle.jpeg',
      affiliation: 'Researcher, Microsoft',
      linkedinProfile: 'https://www.linkedin.com/in/danielle-belgrave-704157107/',
-     description: ' '
+     description: '.'
     },
     'Darlington Akogo':
     { imagePath: './assets/images/speakers/darlington.jpg',
@@ -31,7 +31,7 @@ INFO = {
         imagePath: './assets/images/speakers/ayorkoh.jpg',
         affiliation: 'Senior Lecturer, Ashesi University',
         linkedinProfile: 'https://www.linkedin.com/in/g-ayorkor-korsah-1b09183/',
-        description: ''
+        description: '.'
     },
     'Moustapha Cisse, PhD':
     { imagePath: './assets/images/speakers/moustapha.jpeg',
@@ -45,7 +45,21 @@ INFO = {
       affiliation: 'Head of Google AI Center, Accra. Founder and Director of AMMI at AIMS',
       linkedinProfile: 'https://www.linkedin.com/in/moustapha-cisse/', 
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
-      description: " "
+      description: "."
+     },
+     'Moustapha Cisssse, PhD':
+    { imagePath: './assets/images/speakers/moustapha.jpeg',
+      // lectureInfoPath: './assets/speaker_data/ntombikayise_banda/lecture_info.txt',
+      // lectureHeading: 'Multimodal Emotion Recognition',
+      // lectureAbstract:
+      //  [ 'During communication, research shows that a large portion of the message is conveyed through emotional displays, with the content of the message accounting for approximately 7%. Moreover, human brains make use of these complementary emotional displays such as facial expressions, vocal expressions, and body postures to resolve any decision ambiguities and infer reliable emotion decisions. This talk will explore how computers can emulate humans by making use of visual, audio and bio-signal modalities to recognize complex emotions using variants of recurrent neural networks' ],
+      // categoryInfoPath: './assets/speaker_data/ntombikayise_banda/category.txt',
+      /// category: 'Vision',
+      // affiliationInfoPath: './assets/speaker_data/ntombikayise_banda/affiliation.txt',
+      affiliation: 'Head of Google AI Center, Accra. Founder and Director of AMMI at AIMS',
+      linkedinProfile: 'https://www.linkedin.com/in/moustapha-cisse/', 
+      // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
+      description: "asadfasd adsfasd"
      },
 };
 
