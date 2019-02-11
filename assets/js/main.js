@@ -26,6 +26,13 @@ INFO = {
      linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
      description: "Delali Agbenyegah is the head of Data Science and Analytics team at Express, a large US based Fashion Retailer where he leads a team of Data Scientists In developing and deploying machine learning and optimization models for Express. Prior to joining Express In 2018, Delali was a Predictive Analytics Manager at a large Credit Card and Loyalty Solutions company based in Columbus, Ohio in the USA where he leads a team of Data Scientists in developing and deploying Predictive Analytics Solutions for several Fortune 500 companies. He has over eight years of experience in Data Science, Statistical Consulting and Business Analytics, with strong focus in predictive modelling, data mining, machine learning, conjoint design and analysis, marketing campaign optimization and marketing mix modelling. Delali has worked with several retailors and banks to develop and Implement analytical solutions that has generated great customer acquisitions and Improved retention, leading to significance revenue growth for the brands."
     },
+    'G. Ayorkor Korsah (Ph.D.)':
+    {
+        imagePath: './assets/images/speakers/ayorkoh.jpg',
+        affiliation: 'Senior Lecturer, Ashesi University',
+        linkedinProfile: 'https://www.linkedin.com/in/g-ayorkor-korsah-1b09183/',
+        description: ''
+    },
     'Moustapha Cisse':
     { imagePath: './assets/images/speakers/moustapha.jpeg',
       // lectureInfoPath: './assets/speaker_data/ntombikayise_banda/lecture_info.txt',
@@ -40,12 +47,6 @@ INFO = {
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
       description: " "
      },
-    // 'Stephen Opoku-Anokye, PhD':
-    //{ imagePath: './assets/images/speakers/stephen.jpeg',
-    // affiliation: 'Business Analytics Consultant, Barrachd',
-    // linkedinProfile: 'https://www.linkedin.com/in/nanayaw95/',
-    // description: "Dr. Stephen Opoku-Anokye is a consultant, lecturer and researcher, who focuses on business intelligence, information systems design and enterprise architecture. His expertise in business intelligence includes data management, database design and business analytics. He is currently a Senior Business Analytics Consultant with a UK-based consultancy that specializes in Business Intelligence, Analytics and Information Management. Also, he is a Sessional Lecturer for Business Intelligence and Data Mining at the Henley Business School, University of Reading, UK. He visits University of Ghana Business School once a year to deliver a module on Business Intelligence and Data Mining as part of a collaboration between Henley Business School and the University of Ghana Business School."
-    //},
 };
 
 PANEL = [
