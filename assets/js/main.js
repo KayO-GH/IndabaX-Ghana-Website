@@ -8,7 +8,7 @@ CATEGORY_TO_ICON = {
 };
 
 INFO = {
-    'Danielle Belgrave':
+    'Danielle Belgrave, PhD':
     { imagePath: './assets/images/speakers/danielle.jpeg',
      affiliation: 'Researcher, Microsoft',
      linkedinProfile: 'https://www.linkedin.com/in/danielle-belgrave-704157107/',
@@ -26,14 +26,14 @@ INFO = {
      linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
      description: "Delali Agbenyegah is the head of Data Science and Analytics team at Express, a large US based Fashion Retailer where he leads a team of Data Scientists In developing and deploying machine learning and optimization models for Express. Prior to joining Express In 2018, Delali was a Predictive Analytics Manager at a large Credit Card and Loyalty Solutions company based in Columbus, Ohio in the USA where he leads a team of Data Scientists in developing and deploying Predictive Analytics Solutions for several Fortune 500 companies. He has over eight years of experience in Data Science, Statistical Consulting and Business Analytics, with strong focus in predictive modelling, data mining, machine learning, conjoint design and analysis, marketing campaign optimization and marketing mix modelling. Delali has worked with several retailors and banks to develop and Implement analytical solutions that has generated great customer acquisitions and Improved retention, leading to significance revenue growth for the brands."
     },
-    'G. Ayorkor Korsah (Ph.D.)':
+    'G. Ayorkor Korsah, PhD':
     {
         imagePath: './assets/images/speakers/ayorkoh.jpg',
         affiliation: 'Senior Lecturer, Ashesi University',
         linkedinProfile: 'https://www.linkedin.com/in/g-ayorkor-korsah-1b09183/',
         description: ''
     },
-    'Moustapha Cisse':
+    'Moustapha Cisse, PhD':
     { imagePath: './assets/images/speakers/moustapha.jpeg',
       // lectureInfoPath: './assets/speaker_data/ntombikayise_banda/lecture_info.txt',
       // lectureHeading: 'Multimodal Emotion Recognition',
