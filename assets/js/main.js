@@ -29,7 +29,7 @@ INFO = {
     'G. Ayorkor Korsah, PhD':
     {
         imagePath: './assets/images/speakers/ayorkoh.jpg',
-        affiliation: 'Senior Lecturer, Ashesi University',
+        affiliation: 'Head of Computer Science Department and Senior Lecturer, Ashesi University',
         linkedinProfile: 'https://www.linkedin.com/in/g-ayorkor-korsah-1b09183/',
         description: '.'
     },
