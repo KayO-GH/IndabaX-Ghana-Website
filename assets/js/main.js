@@ -33,6 +33,12 @@ INFO = {
         linkedinProfile: 'https://www.linkedin.com/in/g-ayorkor-korsah-1b09183/',
         description: "G. Ayorkor Korsah is a Senior Lecturer in the Department of Computer Science and Information Systems at Ashesi University, Ghana. Korsah’s scholarly interests include solving optimization problems, such as those that arise in robotics path-planning and coordination, and exploring the application of technology to various development-related problems. Korsah enjoys working with students at all levels. At Ashesi, she teaches and works on projects with undergraduate students in the areas of programming, algorithm design, robotics, and artificial intelligence.  To strengthen the pipeline of students entering university, she co-created and is part of a dedicated team that runs the annual Ashesi Innovation Experience (AIX), a pre-college enrichment program aimed at inspiring high school students by engaging them in leadership, design, robotics, engineering, entrepreneurship and the creative arts. <br><br> Korsah studied computer science and engineering at Dartmouth College, NH, USA and later completed her Ph.D. work in robotics at Carnegie Mellon University, PA, USA.  She co-founded, along with Ken Goldberg, the African Robotics Network (AFRON), an informal online community established to promote communication and collaborations to enhance robotics-related education, research, and industry on the continent."
     },
+    'John Aidoo':
+    { imagePath: './assets/images/speakers/jaidoo.jpeg',
+     affiliation: 'Data Analaytics Manager, Central Insurance Companies',
+     linkedinProfile: 'https://www.linkedin.com/in/john-aidoo-178a4732/',
+     description: "John Aidoo is the Data Analytics Manager at  Central Mutual Insurance, a regional Property and Casualty Insurance US based in Van Wert Ohio with offices in Boston, Dallas, Alpharetta where he has built a data science and an analytics team deploying new pricing algorithms, assisting in building a modern enterprise data repository and deploying predictive models for risk selection. Prior to joining Central, John was a data scientist for Nationwide Insurance a fortune 100 company using NLP to build models to score claims logs for subrogation potential.  John has been a practicing data scientist for 7 years and prior to becoming a data scientist worked as a software engineer for LexisNexis for 3 years.  John is an avid R programmer and enjoys experimenting with open source tools. John also is an avid sports fan and enjoys watching basketball, football and soccer. He also enjoys spending time with his wife and two toddlers. "
+    },
     'Moustapha Cisse, PhD':
     { imagePath: './assets/images/speakers/moustapha.jpeg',
       // lectureInfoPath: './assets/speaker_data/ntombikayise_banda/lecture_info.txt',
@@ -47,6 +53,12 @@ INFO = {
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
       description: "."
      },
+     'Shakir Mohamed':
+    { imagePath: './assets/images/speakers/shakir.jpg',
+     affiliation: 'Research Scientist, DeepMind',
+     linkedinProfile: 'https://www.linkedin.com/in/shakirm/',
+     description: "."
+    },
 };
 
 KEYNOTE = "Moustapha Cisse";
