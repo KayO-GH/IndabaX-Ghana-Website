@@ -39,6 +39,12 @@ INFO = {
      linkedinProfile: 'https://www.linkedin.com/in/john-aidoo-178a4732/',
      description: "John Aidoo is the Data Analytics Manager at  Central Mutual Insurance, a regional Property and Casualty Insurance US based in Van Wert Ohio with offices in Boston, Dallas, Alpharetta where he has built a data science and an analytics team deploying new pricing algorithms, assisting in building a modern enterprise data repository and deploying predictive models for risk selection. Prior to joining Central, John was a data scientist for Nationwide Insurance a fortune 100 company using NLP to build models to score claims logs for subrogation potential.  John has been a practicing data scientist for 7 years and prior to becoming a data scientist worked as a software engineer for LexisNexis for 3 years.  John is an avid R programmer and enjoys experimenting with open source tools. John also is an avid sports fan and enjoys watching basketball, football and soccer. He also enjoys spending time with his wife and two toddlers. "
     },
+    'Kwadwo Agyapon-Ntra':
+    { imagePath: './assets/images/speakers/kwadwo.jpg',
+     affiliation: 'Meltwater Entrepreneural School of Technology, MEST Africa',
+     linkedinProfile: 'https://www.linkedin.com/in/kwadwo-agyapon-ntra-036492a2/',
+     description: "."
+    },
     'Moustapha Cisse, PhD':
     { imagePath: './assets/images/speakers/moustapha.jpeg',
       // lectureInfoPath: './assets/speaker_data/ntombikayise_banda/lecture_info.txt',
