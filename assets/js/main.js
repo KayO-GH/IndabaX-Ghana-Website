@@ -8,6 +8,12 @@ CATEGORY_TO_ICON = {
 };
 
 INFO = {
+    'Anani Lotsi, PhD':
+    { imagePath: './assets/images/speakers/lotsi.png',
+     affiliation: 'Lecturer, University of Ghana',
+     linkedinProfile: 'https://www.linkedin.com/in/anani-lotsi-03900788/',
+     description: "Holds a PhD degree in Statistics from University of Groningen, The Netherlands and an Msc degree from University of Kaiserslautern from Germany. In addition he holds a BA degree in Computer Science and Statistics from university of Ghana, legon. He has over ten (10) years’ experience in teaching and research. Courses taught include Probability theory, Sample survey, Data analysis, Research Methodology, Actuarial Mathematics to mention but few. His research interest is broadly on (i) network inference, (ii) high-dimensional inference, design and model choice (iii) Mixture model and (iv) Graphical modelling, Bid data analysis. His work has led to a number of scientific publications in international, peer-reviewed statistical and probability journals. He has also presented his work at several international conferences."
+    },
     'Danielle Belgrave, PhD':
     { imagePath: './assets/images/speakers/danielle.jpeg',
      affiliation: 'Researcher, Microsoft',
