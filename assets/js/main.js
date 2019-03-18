@@ -45,6 +45,12 @@ INFO = {
      linkedinProfile: 'https://www.linkedin.com/in/john-aidoo-178a4732/',
      description: "John Aidoo is the Data Analytics Manager at  Central Mutual Insurance, a regional Property and Casualty Insurance US based in Van Wert Ohio with offices in Boston, Dallas, Alpharetta where he has built a data science and an analytics team deploying new pricing algorithms, assisting in building a modern enterprise data repository and deploying predictive models for risk selection. Prior to joining Central, John was a data scientist for Nationwide Insurance a fortune 100 company using NLP to build models to score claims logs for subrogation potential.  John has been a practicing data scientist for 7 years and prior to becoming a data scientist worked as a software engineer for LexisNexis for 3 years.  John is an avid R programmer and enjoys experimenting with open source tools. John also is an avid sports fan and enjoys watching basketball, football and soccer. He also enjoys spending time with his wife and two toddlers. "
     },
+    'June Seif':
+    { imagePath: './assets/images/speakers/june.jpg',
+     affiliation: 'Data Science and Engineering Manager, PEG Africa',
+     linkedinProfile: 'https://www.linkedin.com/in/june-seif-2a5a9764/',
+     description: "A software Engineer with 7 + years Fintech Experiece, including Mobile Network Operatoe Set up and Technical Integration across Africa, Asia and UAE. A Kumvana 2018 Fellow, MSc in Organizational Development and Leadership Couple with BSc in Computer Science. Currently working as the Data Science & Engineering Manager for PEG Africa."
+    },
     'Kwadwo Agyapon-Ntra':
     { imagePath: './assets/images/speakers/kwadwo.jpg',
      affiliation: 'Meltwater Entrepreneural School of Technology, MEST Africa',
@@ -65,6 +71,12 @@ INFO = {
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
       description: "."
      },
+     'Richard Minkah, PhD':
+    { imagePath: './assets/images/speakers/richardm.jpeg',
+     affiliation: 'Lecturer, University of Ghana',
+     linkedinProfile: '#',
+     description: "Dr. Richard Minkah holds a split-site PhD from the University of Ghana, Legon and Stellenbosch University, South Africa with specialisation in Statistics of Extremes and an MSc in Financial Mathematics from Uppsala University, Sweden. He is a lecturer at the Department of Statistics and Actuarial Science, University of Ghana. His research interest is in Statistics of Extremes and its applications. In addition, he has research interest in computational statistics – bootstrap and simulation. He provides consultation for researchers on computational statistics especially its implementation in the statistical package R. He has published in several statistics journals and presented his work at international conferences."
+    },
      'Shakir Mohamed, PhD':
     { imagePath: './assets/images/speakers/shakir.jpg',
      affiliation: 'Research Scientist, DeepMind',
