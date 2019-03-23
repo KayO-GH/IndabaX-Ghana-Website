@@ -32,6 +32,12 @@ INFO = {
      linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
      description: "Delali Agbenyegah is the head of Data Science and Analytics team at Express, a large US based Fashion Retailer where he leads a team of Data Scientists In developing and deploying machine learning and optimization models for Express. Prior to joining Express In 2018, Delali was a Predictive Analytics Manager at a large Credit Card and Loyalty Solutions company based in Columbus, Ohio in the USA where he leads a team of Data Scientists in developing and deploying Predictive Analytics Solutions for several Fortune 500 companies. He has over eight years of experience in Data Science, Statistical Consulting and Business Analytics, with strong focus in predictive modelling, data mining, machine learning, conjoint design and analysis, marketing campaign optimization and marketing mix modelling. Delali has worked with several retailors and banks to develop and Implement analytical solutions that has generated great customer acquisitions and Improved retention, leading to significance revenue growth for the brands."
     },
+    'Gilbert Adjei':
+    { imagePath: './assets/images/speakers/gilbert1.jpg',
+     affiliation: 'Data Scientist, SuperFluid Labs',
+     linkedinProfile: 'https://www.linkedin.com/in/gilbert-adjei-900ba2110/',
+     description: "Gilbert Adjei is a well rounded individual in data science with a background in Mathematics & Computer Science. Professionally, works as a Data Scientist at SuperFluid Labs, Ltd and has intense passion in using AI to solve socio-economic challenges in Africa. He has authored publications with the AI company Heartbeat and also speaks at local AI and Data Science events."
+    },
     'G. Ayorkor Korsah, PhD':
     {
         imagePath: './assets/images/speakers/ayorkoh.jpg',
