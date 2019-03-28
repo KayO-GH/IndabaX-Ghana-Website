@@ -63,8 +63,8 @@ INFO = {
      linkedinProfile: 'https://www.linkedin.com/in/kwadwo-agyapon-ntra-036492a2/',
      description: "."
     },
-    'Moustapha Cisse, PhD':
-    { imagePath: './assets/images/speakers/moustapha.jpeg',
+   // 'Moustapha Cisse, PhD':
+   // { imagePath: './assets/images/speakers/moustapha.jpeg',
       // lectureInfoPath: './assets/speaker_data/ntombikayise_banda/lecture_info.txt',
       // lectureHeading: 'Multimodal Emotion Recognition',
       // lectureAbstract:
@@ -72,11 +72,11 @@ INFO = {
       // categoryInfoPath: './assets/speaker_data/ntombikayise_banda/category.txt',
       /// category: 'Vision',
       // affiliationInfoPath: './assets/speaker_data/ntombikayise_banda/affiliation.txt',
-      affiliation: 'Head of Google AI Center, Accra. Founder and Director of AMMI at AIMS',
-      linkedinProfile: 'https://www.linkedin.com/in/moustapha-cisse/', 
+    //  affiliation: 'Head of Google AI Center, Accra. Founder and Director of AMMI at AIMS',
+    //  linkedinProfile: 'https://www.linkedin.com/in/moustapha-cisse/', 
       // vidLink: 'https://www.youtube.com/embed/jzCwsq9xDjY'
-      description: "."
-     },
+    //  description: "."
+    // },
      'Richard Minkah, PhD':
     { imagePath: './assets/images/speakers/richardm.jpeg',
      affiliation: 'Lecturer, University of Ghana',
