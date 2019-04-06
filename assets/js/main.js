@@ -80,6 +80,12 @@ INFO = {
 };
 
 PANELISTS = {
+    'Akua Oseiwah Ahenkorah':
+    { imagePath: './assets/images/speakers/akua.jpg',
+     affiliation: 'Operations Manager and QA Team Lead, EAI Information Systems Ghana',
+     linkedinProfile: 'https://www.linkedin.com/in/akua-oseiwah-ahenkorah-6b48141a/?originalSubdomain=gh',
+     description: "Akua Oseiwah Ahenkorah is the Operations Manager and QA Team Lead for EAI Information Systems Ghana, a global financial services technology firm, specializing in banking, insurance and broker dealership. The firm has regional presence in North America and in Africa. She started as a programmer and data analyst in 2010 at EAI Information systems working on projects in Business Intelligence and Reporting, Web applications and software application testing. She rose through the ranks to Team Lead and subsequently manager in charge of the Ghana office. <br><br>Akua Oseiwah Ahenkorah is a computer engineer with BSc Computer Engineering from Kwame Nkrumah University of Science and Technology (KNUST) and currently pursuing a Masters program in Computer Science at KNUST. She is very passionate about artificial intelligence and machine learning and leads training sessions of python labs at women who code Accra meetings."
+    },
     'Anani Lotsi, PhD':
     { imagePath: './assets/images/speakers/lotsi.png',
      affiliation: 'Lecturer, University of Ghana',
