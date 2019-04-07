@@ -115,12 +115,6 @@ TUTORIAL_LEADERS = {
      linkedinProfile: 'https://www.linkedin.com/in/gilbert-adjei-900ba2110/',
      description: "Gilbert Adjei is a well rounded individual in data science with a background in Mathematics & Computer Science. Professionally, works as a Data Scientist at SuperFluid Labs, Ltd and has intense passion in using AI to solve socio-economic challenges in Africa. He has authored publications with the AI company Heartbeat and also speaks at local AI and Data Science events."
     },
-    'Kwadwo Agyapon-Ntra':
-    { imagePath: './assets/images/speakers/kwadwo.jpg',
-     affiliation: 'Meltwater Entrepreneural School of Technology, MEST Africa',
-     linkedinProfile: 'https://www.linkedin.com/in/kwadwo-agyapon-ntra-036492a2/',
-     description: "Kwadwo is a software engineer and a passionate data science and machine learning enthusiast, currently with the Meltwater Entrepreneurial School of Technology (MEST Africa) as an Entrepreneur-in-Training. Kwadwo was one of the pioneering members of the Accra Saturday ML Meetup. <br><br>He has a background in computer engineering with experience in web, mobile and IoT development, as well as a few engineering competition victories under his belt, ranging from the NASA Space Apps Challenge 2019 to the Kumasi Hive: IoT Masters Hackathon, and many others in between. Kwadwo's interests lie primarily in the application of deep learning to the entrepreneurial and business landscape of Africa, and he has a deep passion to impart knowledge to a younger generation of entrepreneurs and software developers on the continent. <br><br>As a conference speaker, Kwadwo has spoken at events such as Google Devfest Accra, Republica, and Ashesi DSC workshops. He is also a mentor with Django Girls in Ghana as well as the PyLadies Ghana community. To even younger generations, he has served as a robotics coach during the nationwide Robotics Inspired Science Education (RISE) competition as well as a National Science and Math Quiz team coach in his high school alma mater, Achimota School. Kwadwo was also one of the organizers of the first ever Afrihack Data Science Challenge held at the end of 2018. <br><br>Also a prolific writer, Kwadwo writes for The Data-Driven Investor, The Post-Grad Survival Guide, the MEST Blog, and on his own site at https://blog.kantra.xyz."
-    },
     'Oreoluwa Ogundipe':
     { imagePath: './assets/images/speakers/oreoluwa.png',
      affiliation: 'Software Engineer - Data, expressPay Ghana Limited',
