@@ -109,29 +109,11 @@ PANELISTS = {
 
 
 TUTORIAL_LEADERS = {
-    'Anani Lotsi, PhD':
-    { imagePath: './assets/images/speakers/lotsi.png',
-     affiliation: 'Lecturer, University of Ghana',
-     linkedinProfile: 'https://www.linkedin.com/in/anani-lotsi-03900788/',
-     description: "Holds a PhD degree in Statistics from University of Groningen, The Netherlands and an Msc degree from University of Kaiserslautern from Germany. In addition he holds a BA degree in Computer Science and Statistics from university of Ghana, legon. He has over ten (10) years’ experience in teaching and research. Courses taught include Probability theory, Sample survey, Data analysis, Research Methodology, Actuarial Mathematics to mention but few. His research interest is broadly on (i) network inference, (ii) high-dimensional inference, design and model choice (iii) Mixture model and (iv) Graphical modelling, Bid data analysis. His work has led to a number of scientific publications in international, peer-reviewed statistical and probability journals. He has also presented his work at several international conferences."
-    },
-    'Ezekiel Nortey, PhD':
-    { imagePath: './assets/images/speakers/ezekiel.JPG',
-     affiliation: 'Senior Lecturer, University of Ghana',
-     linkedinProfile: 'https://www.linkedin.com/in/ezekiel-nortey-543aab72/',
-     description: "Ezekiel Nortey currently works at the Department of Statistics and Actuarial Science, University of Ghana at the College of Basic and Applied Sciences as a Senior Lecturer.He has over 15 years of experience teaching both theoretical and applied Statistics at the Statistics Department. He completed his Bachelors and MPhil  degrees in Statistics  from the University of Ghana as well as a joint PhD in Statistics from University of Ghana and Vrije  Universiteit in the Netherlands.His research revolves around Applied Mathematics and Probability. Ezekiel has worked as a Statistical consultant for many institutions and organizations including Ghana Statistical Service,ISSER,UNDP,UNICEF,DFID, Ghana Aids Commission,Students Loans Trust Fund,Ministry of Lands and Natural Resources,MASDAR UK LTD,IDEG  among others. Between 2011 to 2013,he served as the HOD for the Department of Statistics and Actuarial Science at the University of Ghana."
-    },
     'Gilbert Adjei':
     { imagePath: './assets/images/speakers/gilbert1.jpg',
      affiliation: 'Data Scientist, SuperFluid Labs',
      linkedinProfile: 'https://www.linkedin.com/in/gilbert-adjei-900ba2110/',
      description: "Gilbert Adjei is a well rounded individual in data science with a background in Mathematics & Computer Science. Professionally, works as a Data Scientist at SuperFluid Labs, Ltd and has intense passion in using AI to solve socio-economic challenges in Africa. He has authored publications with the AI company Heartbeat and also speaks at local AI and Data Science events."
-    },
-    'June Seif':
-    { imagePath: './assets/images/speakers/june.jpg',
-     affiliation: 'Data Science and Engineering Manager, PEG Africa',
-     linkedinProfile: 'https://www.linkedin.com/in/june-seif-2a5a9764/',
-     description: "A software Engineer with 7 + years Fintech Experiece, including Mobile Network Operatoe Set up and Technical Integration across Africa, Asia and UAE. A Kumvana 2018 Fellow, MSc in Organizational Development and Leadership Couple with BSc in Computer Science. Currently working as the Data Science & Engineering Manager for PEG Africa."
     },
     'Kwadwo Agyapon-Ntra':
     { imagePath: './assets/images/speakers/kwadwo.jpg',
