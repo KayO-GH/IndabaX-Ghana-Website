@@ -98,6 +98,12 @@ PANELISTS = {
      linkedinProfile: 'https://www.linkedin.com/in/ezekiel-nortey-543aab72/',
      description: "Ezekiel Nortey currently works at the Department of Statistics and Actuarial Science, University of Ghana at the College of Basic and Applied Sciences as a Senior Lecturer.He has over 15 years of experience teaching both theoretical and applied Statistics at the Statistics Department. He completed his Bachelors and MPhil  degrees in Statistics  from the University of Ghana as well as a joint PhD in Statistics from University of Ghana and Vrije  Universiteit in the Netherlands.His research revolves around Applied Mathematics and Probability. Ezekiel has worked as a Statistical consultant for many institutions and organizations including Ghana Statistical Service,ISSER,UNDP,UNICEF,DFID, Ghana Aids Commission,Students Loans Trust Fund,Ministry of Lands and Natural Resources,MASDAR UK LTD,IDEG  among others. Between 2011 to 2013,he served as the HOD for the Department of Statistics and Actuarial Science at the University of Ghana."
     },
+    'Jeph Acheampong':
+    { imagePath: './assets/images/speakers/jeph.jpg',
+     affiliation: 'Co-Founder and CEO, Blytix and Blossom Academy',
+     linkedinProfile: 'https://www.linkedin.com/in/jephthahacheampong/',
+     description: "Jeph Acheampong is the co-founder and CEO of Blytix (www.blytix.com), an analytics company that helps companies derive insights from data and improve performance. Prior to Blytix, he founded West Africa's first data science academy - Blossom Academy - where they equip university students and graduates with data science skills. Jeph is a Princeton in Africa Business Fellow, an Ashoka Changemaker, World Economic Forum Global Shaper, and was named a 2018 Future of Ghana 30 Under 30 Pioneer."
+    },
     'June Seif':
     { imagePath: './assets/images/speakers/june.jpg',
      affiliation: 'Data Science and Engineering Manager, PEG Africa',
