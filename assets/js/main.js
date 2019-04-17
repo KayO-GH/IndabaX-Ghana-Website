@@ -110,6 +110,12 @@ PANELISTS = {
      linkedinProfile: 'https://www.linkedin.com/in/june-seif-2a5a9764/',
      description: "A software Engineer with 7 + years Fintech Experiece, including Mobile Network Operatoe Set up and Technical Integration across Africa, Asia and UAE. A Kumvana 2018 Fellow, MSc in Organizational Development and Leadership Couple with BSc in Computer Science. Currently working as the Data Science & Engineering Manager for PEG Africa."
     },
+    'Samuel Mensah':
+    { imagePath: './assets/images/speakers/samuel.jpg',
+     affiliation: 'CEO and a Co-founder, BACE Group',
+     linkedinProfile: 'https://www.linkedin.com/in/sasogeek/?originalSubdomain=gh',
+     description: "Samuel Mensah is the CEO and a Co-founder of BACE Group, a software engineer and an avid techie, passionate about efficient processes with a keen interest in the financial industry and artificial intelligence."
+    },
 };
 
 
@@ -138,6 +144,27 @@ TUTORIAL_LEADERS = {
      affiliation: 'Machine Learning Engineer, WACCBIP-University of Ghana',
      linkedinProfile: 'https://www.linkedin.com/in/vincent-appiah-a10238112/',
      description: "."
+    },
+};
+
+KEYNOTES = {
+    'Delali Agbenyegah':
+    { imagePath: './assets/images/organisers/delali.jpeg',
+     affiliation: 'Director of Data Science & Analytics, EXPRESS',
+     linkedinProfile: 'https://www.linkedin.com/in/delaliagbenyegah/',
+     description: "Delali Agbenyegah is the head of Data Science and Analytics team at Express, a large US based Fashion Retailer where he leads a team of Data Scientists In developing and deploying machine learning and optimization models for Express. Prior to joining Express In 2018, Delali was a Predictive Analytics Manager at a large Credit Card and Loyalty Solutions company based in Columbus, Ohio in the USA where he leads a team of Data Scientists in developing and deploying Predictive Analytics Solutions for several Fortune 500 companies. He has over eight years of experience in Data Science, Statistical Consulting and Business Analytics, with strong focus in predictive modelling, data mining, machine learning, conjoint design and analysis, marketing campaign optimization and marketing mix modelling. Delali has worked with several retailors and banks to develop and Implement analytical solutions that has generated great customer acquisitions and Improved retention, leading to significance revenue growth for the brands."
+    },
+    'Moustapha Cisse, PhD':
+    { imagePath: './assets/images/speakers/moustapha.jpeg',
+        affiliation: 'Head of Google AI Center, Accra. Founder and Director of AMMI at AIMS',
+        linkedinProfile: 'https://www.linkedin.com/in/moustapha-cisse/', 
+        description: "."
+    },
+    'Winifred Kotin':
+    { imagePath: './assets/images/speakers/winifred.jpg',
+     affiliation: 'Country CEO and Director at SUPERFLUID LABS',
+     linkedinProfile: 'https://www.linkedin.com/in/winifred-kotin/',
+     description: "Winifred is passionate about expanding economic opportunities through the power of data and AI. Data when fully optimized will unlock opportunities for growth and propel our economic transformation in Ghana and Africa as a whole, and it delights me greatly to contribute towards this through our work at Superfluid Labs and other engagements. At Superfluid Labs, we harness data analytics, AI and Machine Learning technologies to empower enterprises harness traditional and alternative data sources for business intelligence, digital credit solutions and other data-driven innovations."
     },
 };
 
@@ -551,7 +578,131 @@ function populatePanelistsInfo(info) {
     $("#panelists div.container").append($row_div);
 }
 
+function populateKeynotes(info) {
+    var count = 0;
+    var $row_div;
 
+    // add info to speakers section
+    for(speaker in info) {
+        if(info[speaker].imagePath == null || speaker.toUpperCase() == "MORE SPEAKERS TBC") {
+          continue;
+        }
+
+        var id = "-" + speaker.toLowerCase().replace(".", "").replace(",", "").split(" ").join("-");
+
+        if(count % 3 == 0) {
+            $row_div = $("<div />").addClass("row");
+        }
+        count++;
+
+        $row_div.append(
+            $("<div />").addClass("col-md-4")
+            .append(
+                $("<div />").addClass("speaker")
+                .append(
+                    $("<figure />")
+                    .append(
+                        $("<a />").attr({
+                            "data-target": ("#myModal" + id),
+                            "data-toggle": "modal"
+                        })
+                        .append(
+                            $("<img />").attr({
+                                "src": info[speaker].imagePath,
+                                "data-toggle": "tooltip",
+                                "title": "Click for more info"
+                            })
+                        ) // append to a
+                    ) // append to figure
+                    .append(
+                        $("<div />").addClass("col-xs-9 col-xs-push-1")
+                        .append(
+                            $("<h4 />").text(speaker)
+                        ) // heading div
+                    ) // append to figure
+                    .append(
+                        $("<div />").addClass("col-xs-12")
+                        .append(
+                            $("<h5 />").text(info[speaker].affiliation)
+                        ) // paragraph div   
+                    ) // append to figure
+                    .append(
+                        $("<div />").addClass("modal fade").attr({
+                            "tabindex": "-1",
+                            "id": ("myModal" + id),
+                            "role": "dialog",
+                            "aria-hidden": "true",
+                            "aria-labelledby": "myModalLabel"
+                        })
+                        .append(
+                            $("<div />").addClass("modal-dialog")
+                            .append(
+                                $("<div />").addClass("modal-content")
+                                .append(
+                                    $("<div />").addClass("modal-header")
+                                    .append(
+                                        $("<button />").addClass("close").attr({
+                                            "aria-hidden": "true",
+                                            "type": "button",
+                                            "data-dismiss": "modal"
+                                        })
+                                        .text("x")
+                                    ) // append to modal header
+                                    .append(
+                                        $("<h4 />").attr({
+                                            "id": "myModalLabel"
+                                        })
+                                        .text(speaker)
+                                    ) // append to modal header
+                                ) // append to modal content
+                                .append(
+                                    $("<div />").addClass("modal-body")
+                                    .append(
+                                        $("<h4 />")
+                                        .text(info[speaker].lectureHeading || "")
+                                    ) // append to modal body
+                                    .append(
+                                      (
+                                        $("<p />").attr({
+                                            "style": "text-transform: none; font-style: normal; text-align: justify;",
+                                        }).innerText = info[speaker].description || ""
+                                      )
+                                    )
+                                ) // append to modal content
+                                .append(
+                                    $("<div />").addClass("modal-footer")
+                                    .append(
+                                        $("<a />").addClass("btn btn-primary linkedin").attr({
+                                            "type": "button",
+                                            "href": info[speaker].linkedinProfile,
+                                            "target": "_blank",
+                                        })
+                                        .text("LinkedIn Profile"),
+
+                                        $("<button />").addClass("btn btn-primary").attr({
+                                            "type": "button",
+                                            "data-dismiss": "modal",
+                                            "style": "background: #d89324"
+                                        })
+                                        .text("Close")
+                                    ) // append to modal footer
+                                ) // append to modal content
+                            ) // append to modal dialog
+                        ) // append to modal div
+                    ) // append to figure
+                ) // append to speaker div
+            ) // append to col div
+        );
+
+        if(count % 3 == 2) {
+            $("#keynotes div.container").append($row_div);
+        }
+    }
+
+    $("#keynotes div.container").append($row_div);
+}
+
+populateKeynotes(KEYNOTES)
 populateSpeakerInfo(INFO);
 populatePanelistsInfo(PANELISTS);
 populateTutorialLeadersInfo(TUTORIAL_LEADERS);
