@@ -241,7 +241,7 @@ function populateSpeakerInfo(info) {
                         ) // append to a
                     ) // append to figure
                     .append(
-                        $("<div />").addClass("col-xs-9 col-xs-push-1")
+                        $("<div />").addClass("col-xs-12").css('text-align','center')
                         .append(
                             $("<h4 />").text(speaker)
                         ) // heading div
@@ -366,7 +366,7 @@ function populateTutorialLeadersInfo(info) {
                         ) // append to a
                     ) // append to figure
                     .append(
-                        $("<div />").addClass("col-xs-9 col-xs-push-1")
+                        $("<div />").addClass("col-xs-12").css('text-align','center')
                         .append(
                             $("<h4 />").text(speaker)
                         ) // heading div
@@ -491,7 +491,7 @@ function populatePanelistsInfo(info) {
                         ) // append to a
                     ) // append to figure
                     .append(
-                        $("<div />").addClass("col-xs-9 col-xs-push-1")
+                        $("<div />").addClass("col-xs-12").css('text-align','center')
                         .append(
                             $("<h4 />").text(speaker)
                         ) // heading div
@@ -615,7 +615,7 @@ function populateKeynotes(info) {
                         ) // append to a
                     ) // append to figure
                     .append(
-                        $("<div />").addClass("col-xs-9 col-xs-push-1")
+                        $("<div />").addClass("col-xs-12").css('text-align','center')
                         .append(
                             $("<h4 />").text(speaker)
                         ) // heading div
