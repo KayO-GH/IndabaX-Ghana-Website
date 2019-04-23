@@ -1,5 +1,5 @@
 ## Ghana Analytics Summit, IndabaX 2019
-This is the websit for the first Ghana Analytics Summit, IndabaX Conference. 
+This is the website for the first Ghana Analytics Summit, IndabaX Conference. 
 
 ## Oragnizers
 Richard Ackon
